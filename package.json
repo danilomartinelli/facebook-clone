@@ -17,6 +17,15 @@
         "resolve-url-loader": "^3.1.0",
         "sass": "^1.15.2",
         "sass-loader": "^8.0.0",
+        "vue": "^2.5.17",
         "vue-template-compiler": "^2.6.11"
+    },
+    "dependencies": {
+        "date-fns": "^2.10.0",
+        "tailwindcss": "^1.2.0",
+        "vue-classnames": "^0.1.0",
+        "vue-content-loader": "^0.2.2",
+        "vue-router": "^3.1.6",
+        "vuex": "^3.1.2"
     }
 }
