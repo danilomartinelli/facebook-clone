@@ -2,4 +2,4 @@
 
 Auth::routes();
 
-Route::get('/dashboard/{any}', 'AppController@index')->where('any', '.*')->middleware('auth')->name('home');
+Route::get('{any}', 'AppController@index')->where('any', '.*')->middleware('auth')->name('home');
